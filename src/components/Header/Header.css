@@ -48,3 +48,8 @@
     width: 200px;
   }
 }
+@media (max-width: 1024px) {
+  .stack {
+    max-width: 400px;
+  }
+}

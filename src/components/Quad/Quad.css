@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 250px;
   height: 50%;
-  /* justify-content: space-between; */
 }
 .img-section img {
   width: 100%;
@@ -29,6 +28,18 @@
   .quad-text {
     width: 90%;
     height: 50%;
-    /* border: 1px solid green; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .quad {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .quad-text {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
   }
 }

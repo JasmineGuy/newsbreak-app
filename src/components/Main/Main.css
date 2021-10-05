@@ -171,17 +171,31 @@
     align-items: center;
     width: 100vw;
     margin-left: 10rem;
-    /* flex-wrap: nowrap; */
   }
-  /* .small-business-left {
-    width: 90vh;
-    border: 1px solid green;
-    margin-left: 5rem;
-  }
-  .small-business-right {
-    display: none;
-  } */
   .health-triplet-container {
     margin-left: -2rem;
   }
 }
+@media (max-width: 1024px) {
+  .feature-portion {
+    display: flex;
+    flex-direction: column;
+  }
+  .sports {
+    margin-bottom: 0rem;
+  }
+  .big-boy-container {
+    height: 30vh;
+  }
+
+  .entertainment {
+    margin-top: 5rem;
+  }
+  .quad-section-1,
+  .quad-section-2 {
+    width: 35%;
+  }
+  .quad-section-3 {
+    display: none;
+  }
+} ;
