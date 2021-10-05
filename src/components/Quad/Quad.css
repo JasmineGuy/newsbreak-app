@@ -1,0 +1,34 @@
+.quad {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 50%;
+  /* justify-content: space-between; */
+}
+.img-section img {
+  width: 100%;
+  border-radius: 5px;
+  min-width: 240px;
+  max-height: 140px;
+  min-height: 144px;
+  border: 1px solid lightgray;
+}
+.quad-text h6 {
+  margin-top: 0rem;
+}
+@media (max-width: 375px) {
+  .quad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-section img {
+    width: 90%;
+    height: 50%;
+  }
+  .quad-text {
+    width: 90%;
+    height: 50%;
+    /* border: 1px solid green; */
+  }
+}

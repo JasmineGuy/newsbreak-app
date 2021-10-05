@@ -1,0 +1,27 @@
+.triplet {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.triplet img {
+  width: 90%;
+  border-radius: 5px;
+  min-height: 218px;
+  height: 291px;
+  border: 2px solid lightgray;
+}
+.triplet-text {
+  width: 90%;
+}
+@media (max-width: 375px) {
+  .triplet {
+    width: 100%;
+  }
+  .triplet img {
+    width: 100%;
+  }
+  .triplet-text {
+    width: 100%;
+  }
+}

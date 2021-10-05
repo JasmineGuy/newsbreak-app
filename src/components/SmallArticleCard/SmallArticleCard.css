@@ -1,0 +1,47 @@
+.small-card {
+  width: 45vw;
+  height: 175px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  line-height: 1rem;
+  justify-content: space-between;
+  height: 150px;
+}
+.small-title {
+  margin-top: -0.5rem;
+}
+
+.image {
+  margin: 1rem;
+  display: flex;
+}
+.image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+@media (max-width: 375px) {
+  .small-card {
+    width: 80%;
+    margin-left: -5rem;
+  }
+  .text h5 {
+    font-size: 10px;
+  }
+  .text h4 {
+    font-size: 12px;
+  }
+  .text h6 {
+    font-size: 8px;
+  }
+  .image img {
+    height: 75px;
+    width: 75px;
+  }
+}
