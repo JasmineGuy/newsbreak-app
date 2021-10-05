@@ -28,14 +28,13 @@
 @media (max-width: 375px) {
   .feature-article {
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
   }
   .feature-wrap {
     display: flex;
     width: 90%;
-    height: 200px;
-    align-items: center;
-    justify-content: space-between;
+    height: 150px;
+    justify-content: center;
   }
   .feature-wrap img {
     height: 150px;
@@ -45,15 +44,13 @@
     display: flex;
     width: 100%;
     height: 80%;
-    margin: 1rem;
-    margin-top: -2rem;
+    margin: 0.5rem;
+    margin-top: -1rem;
   }
   .minor-text h6 {
-    font-size: 10px;
+    font-size: 8px;
   }
   .minor-text h3 {
-    font-size: 12px;
+    font-size: 10px;
   }
-}
-@media (max-width: 770px) {
 }

@@ -105,15 +105,19 @@
   .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+    /* margin-right: 0.5rem; */
   }
   .top-stories h1 {
     font-size: 20px;
   }
   .feature-portion {
     display: flex;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 30rem;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 500px;
+    margin-left: 1rem;
   }
   .small-features {
     display: flex;
@@ -125,55 +129,59 @@
   .sports {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    margin-bottom: 30rem;
-    width: 80%;
+    margin-bottom: 25rem;
   }
   .sports h1 {
     font-size: 20px;
+    margin-left: -22rem;
   }
   .big-boy-container {
     display: none;
   }
   .sports-triplet-container {
-    /* display: flex;
-    flex-direction: column;
-    height: 100%; */
-    height: 90vh;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* margin-left: 2rem; */
+    flex-direction: column;
+    align-items: center;
+    margin-left: -3.5rem;
   }
   .entertainment {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     border: none;
-    /* margin-left: 2rem; */
   }
   .entertainment h1 {
     font-size: 20px;
+    margin-left: -17rem;
   }
   .quad-section-2,
   .quad-section-3 {
     display: none;
   }
   .business {
+    border: none;
+  }
+  .business-wrap {
     display: flex;
     flex-direction: column;
-    border: 1px solid pink;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    flex-wrap: nowrap;
+    margin-left: 10rem;
+    /* flex-wrap: nowrap; */
   }
-  .small-business-left {
-    width: 100vh;
+  /* .small-business-left {
+    width: 90vh;
+    border: 1px solid green;
+    margin-left: 5rem;
   }
   .small-business-right {
-    visibility: hidden;
+    display: none;
+  } */
+  .health-triplet-container {
+    margin-left: -2rem;
   }
 }
