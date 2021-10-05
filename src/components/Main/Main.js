@@ -27,6 +27,7 @@ const Main = () => {
       // .then((res) => setTopArticles(res.data.articles));
       .then((res) => {
         console.log("FIRST RES: ", res);
+        console.log("key:", REACT_APP_API_KEY);
         setTopArticles(res.data.articles);
       });
 
