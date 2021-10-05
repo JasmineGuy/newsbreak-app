@@ -6,15 +6,11 @@ const port = process.env.PORT || 4000;
 
 app.use(express.static("public"));
 
-// app.get("/", (req, res) => {
-//   res.sendFile(path.join(__dirname, "public"));
-// });
+app.use(express.json());
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../build", "index.html"));
 });
-
-app.use(express.json());
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
