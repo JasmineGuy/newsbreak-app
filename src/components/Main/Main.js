@@ -20,6 +20,8 @@ const Main = () => {
 
   useEffect(() => {
     console.log("hit use effect");
+    console.log("key:", REACT_APP_API_KEY);
+
     axios
       .get(
         `https://newsapi.org/v2/top-headlines?country=us&apiKey=${REACT_APP_API_KEY}`
@@ -27,7 +29,6 @@ const Main = () => {
       // .then((res) => setTopArticles(res.data.articles));
       .then((res) => {
         console.log("FIRST RES: ", res);
-        console.log("key:", REACT_APP_API_KEY);
         setTopArticles(res.data.articles);
       });
 
