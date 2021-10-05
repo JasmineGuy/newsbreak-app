@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import { BrowserRouter, Route, Link } from "react-router-dom";
 import Header from "../Header/Header";
 import axios from "axios";
 import "./Main.css";
@@ -20,11 +19,17 @@ const Main = () => {
   const [health, setHealth] = useState();
 
   useEffect(() => {
+    console.log("hit use effect");
     axios
       .get(
         `https://newsapi.org/v2/top-headlines?country=us&apiKey=${REACT_APP_API_KEY}`
       )
-      .then((res) => setTopArticles(res.data.articles));
+      // .then((res) => setTopArticles(res.data.articles));
+      .then((res) => {
+        console.log("FIRST RES: ", res);
+        setTopArticles(res.data.articles);
+      });
+
     axios
       .get(
         `https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=${REACT_APP_API_KEY}`
@@ -47,7 +52,8 @@ const Main = () => {
       .then((res) => setHealth(res.data.articles));
   }, []);
 
-  // console.log("health:", health);
+  console.log("topArticles:", topArticles);
+  console.log("sports:", sports);
 
   return (
     <div className="main">
