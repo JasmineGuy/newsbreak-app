@@ -1,4 +1,6 @@
-<strong>App Summary</strong>
+<strong>
+<h1>App Summary</h1>
+</strong>
 The main goal of NewsBreak is to aggregate breaking US news stories from multiple sources.
 
 <h1>Technology</h1>
