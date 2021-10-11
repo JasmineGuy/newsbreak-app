@@ -19,9 +19,6 @@ const Main = () => {
   const [health, setHealth] = useState();
 
   useEffect(() => {
-    console.log("hit use effect");
-    console.log("key:", REACT_APP_API_KEY);
-
     axios
       .get(
         `https://newsapi.org/v2/top-headlines?country=us&apiKey=${REACT_APP_API_KEY}`

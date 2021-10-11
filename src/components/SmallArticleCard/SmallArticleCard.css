@@ -1,5 +1,5 @@
 .small-card {
-  width: 45vw;
+  width: 40vw;
   height: 175px;
   display: flex;
   align-items: center;
@@ -22,8 +22,9 @@
 }
 .image img {
   height: 100px;
-  width: 100px;
+  /* width: 100px; */
   border-radius: 5px;
+  width: 30%;
   border: 1px solid lightgray;
 }
 @media (max-width: 375px) {
