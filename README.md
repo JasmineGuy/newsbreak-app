@@ -6,9 +6,6 @@ The main goal of NewsBreak is to aggregate breaking US news stories from multipl
 <h1>Technology</h1>
 Built in React using NewsAPI API
 
-https://user-images.githubusercontent.com/85497001/137001661-973458d7-b6c4-4045-bb6d-194c8fe82551.mp4
-
-
 
 <h1>Features</h1>
 <ul>
@@ -32,3 +29,7 @@ REACT_APP_API_KEY
 https://newsapi.org/account</li>
 <li>Run command npm start in your terminal to view project in your browser</li>
 </ol>
+
+
+https://user-images.githubusercontent.com/85497001/137001763-03a655d8-e219-494b-be1c-51b623d39da3.mp4
+
