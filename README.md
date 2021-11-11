@@ -1,34 +1,34 @@
-<strong>
-<h1>App Summary</h1>
-</strong>
+
+# **App Summary**
+
 The main goal of NewsBreak is to aggregate breaking US news stories from multiple sources.
 
-<h1>Technology</h1>
+#Technology
 Built in React using NewsAPI API
 
 
-<h1>Features</h1>
-<ul>
-<li>View and read top stories</li>
-<li>Browse stories by category</li>
-<li>See when story was published and by what news outlet.
-</li>
-</ul>
+# Features
 
-<h1>Environmental Variables</h1>
+- View and read top stories
+- Browse stories by category
+- See when story was published and by what news outlet.
+
+
+
+# Environmental Variables
 To run this application, you will need to add the following variables to your .env
 
 REACT_APP_API_KEY
 
-<h1>Installation</h1>
-<ol>
-<li>Clone the project repository</li>
-<li>Install Related dependencies</li>
-<li>Create .env file at the root of the project</li>
-<li>Create and account and retrieve an API key for NewsAPI API at the link below
-https://newsapi.org/account</li>
-<li>Run command npm start in your terminal to view project in your browser</li>
-</ol>
+# Installation
+
+1. Clone the project repository
+2. Install Related dependencies
+3. Create .env file at the root of the project
+4. Create and account and retrieve an API key for NewsAPI API at the link below
+https://newsapi.org/account
+5. Run command npm start in your terminal to view project in your browser
+
 
 
 https://user-images.githubusercontent.com/85497001/137001763-03a655d8-e219-494b-be1c-51b623d39da3.mp4
